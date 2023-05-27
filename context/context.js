@@ -8,7 +8,7 @@ export const AppProvider = ({ children }) => {
   const [address, setAddress] = useState('')
   const [web3, setWeb3] = useState()
   const [lotteryContract, setLotteryContract] = useState()
-  const [lotteryId, setLotteryId] = useState()
+  const [lotteryId, setLotteryId] = useState(0)
   const [lotteryPot, setLotteryPot] = useState('0 MATIC')
   const [lotteryPlayers, setLotteryPlayers] = useState([])
   const [lastWinner, setLastWinner] = useState([])
